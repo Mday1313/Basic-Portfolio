@@ -1,3 +1,50 @@
-ul {
-    list-style-type: none;
+body {
+    margin: 0;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/witewall_3.png");
+    background-attachment: 
+}
+
+.container-1 {
+    padding: 20px;
+    background: #fff;
+    position: relative;
+    width: 100%
+    border: #ccc;
+
+}
+
+.my-name {
+    background: #4aaaa5;
+    width: 100px;
+    padding: 20px;
+    display: inline;
+    margin-left: 140px;
+}
+
+.topnav {
+    position: absolute;
+    right: 15px;
+    bottom: 30%;
+
+}
+
+.about-me {
+
+}
+
+img{
+
+}
+
+ p {
+    text-align: center;
+ }
+.container-2 {
+    width: 960px;
+    background-color: #fff;
+    margin: auto;
+}
+
+footer {
+    background-color: #666;
 }
