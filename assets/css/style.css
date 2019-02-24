@@ -1,3 +1,8 @@
+/*  Add about me paragraph
+    Fix resizing issue in header
+    Finish Portfolio page*/
+
+
 body {
     margin: 0;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/witewall_3.png");
@@ -42,6 +47,11 @@ a {
     border-right: .5px solid #777;
     padding-right: 20px;
 }
+
+.port-boxes {
+    border: none;
+}
+
 #noborder {
     border: none;
 }
@@ -58,9 +68,6 @@ h1 {
 
 }
 
-h2 {
-
-}
 
 .container-2 {
     width: 960px;
@@ -72,6 +79,7 @@ h2 {
     margin-bottom: 60px;
     border: 2px solid #ddd;
 }
+
 img{
     margin:20px;
     margin-left: 35px;
@@ -83,6 +91,60 @@ img{
     float:left;
     background: yellow;
  }
+
+/* Contact specific style begins*/
+
+.containerform {
+    width: 850px;
+    margin: auto;
+    padding: 20px;
+  
+  }
+
+#name, #email, #message  {
+    width: 100%;
+    margin: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+}
+
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+/*Contact specific style ends*/
+
+/*Portfolio specific style begins*/
+
+.port-boxes {
+    width: 20%;
+    height: 20%;
+   
+}
+
+
+h2 {
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/*Portfolio specific style begins*/
+
+
 
 footer {
     background-color: #666;
