@@ -1,5 +1,5 @@
 /*  Add about me paragraph
-    Fix resizing issue in header
+    
     Finish Portfolio page*/
 
 
@@ -9,6 +9,8 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     color: #777;
+    margin: auto;
+    
 }
 
 .container-1 {
@@ -16,8 +18,8 @@ body {
     background: #fff;
     border-bottom: 2px solid #ccc;
     position: relative;
-    width: 100%
-    
+    width: 100%;
+   padding-left: 100px;
 
 }
 
@@ -26,21 +28,20 @@ body {
     width: 100px;
     padding: 20px;
     display: inline;
-    margin-left: 140px;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
 }
 
 .topnav {
+
     position: absolute;
-    right: 15px;
+    right: 200px;
     bottom: 30%;
-    margin-right: 150px;
     
 }
 
-a {
+.toplink {
     text-decoration: none;
     color: #777;
     margin: 10px;
@@ -48,13 +49,13 @@ a {
     padding-right: 20px;
 }
 
-.port-boxes {
-    border: none;
-}
-
 #noborder {
     border: none;
 }
+
+
+
+
 
 
 
@@ -78,6 +79,7 @@ h1 {
     margin-top: 30px;
     margin-bottom: 60px;
     border: 2px solid #ddd;
+    
 }
 
 img{
@@ -91,6 +93,18 @@ img{
     float:left;
     background: yellow;
  }
+
+ footer {
+    background-color: #666;
+    padding-top: 30px;
+    border-top: 4.5px solid #4aaaa5;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    clear: both;
+   
+    
+}
 
 /* Contact specific style begins*/
 
@@ -125,34 +139,15 @@ input[type=submit] {
 
 /*Portfolio specific style begins*/
 
+
 .port-boxes {
-    width: 20%;
-    height: 20%;
-   
-}
-
-
-h2 {
-    background-color: #4aaaa5;
-    color: #fff;
-    font-size: 18px;
-    font-weight: normal;
-    padding: 10px;
-    text-align: center;
-
-}
-
-/*Portfolio specific style begins*/
-
-
-
-footer {
-    background-color: #666;
-    padding-top: 30px;
-    border-top: 4.5px solid #4aaaa5;
-    text-align: center;
-    font-size: 14px;
-    color: #999;
-    clear: both;
+    border: none;
     
+
 }
+ 
+
+/*Portfolio specific style ends*/
+
+
+
