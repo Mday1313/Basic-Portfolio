@@ -95,7 +95,7 @@ h1 {
     background-color: #fff;
     margin: auto;
     border: #ddd;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     border: 2px solid #ddd;
     
@@ -126,7 +126,7 @@ h1 {
     right: 0px;
     width: 100%;  
     padding-bottom: 5px; 
-}
+ }
 
 /* Contact specific style begins*/
 
@@ -192,13 +192,14 @@ input[type=submit] {
 #box-4 {
     position: absolute;
     left: 300px; 
-
+    
 }
 
 #box-5 {
     position: absolute;
     left: 300px; 
     top: 230px;
+    font-size: 16px;
 }
 
 .dimmer:hover img {
